@@ -1,32 +1,32 @@
 [
   {
-    "name": "TVFlix Movie",
+    "name": "MediaFusion Movie",
     "type": "json_imdb",
     "imdbType": "movie",
     "itemType": "info_hash",
     "infoHashTargetKey": "infoHash",
     "jsonResultsKey": "streams",
-    "torrentNameTargetKey": "title",
-    "sizePattern": "\\s*([\\d.]+)\\s*(GB|MB)",
+    "torrentNameTargetKey": "behaviorHints.filename",
+    "sizeAttr": "behaviorHints.videoSize",
     "searchPattern": {
       "movie": "movie/%imdbId",
       "tv": "series/%imdbId:%season:%episode"
     },
-    "url": "https://aiostreamsfortheweebs.midnightignite.me/stremio/be916a98-fccf-4907-99aa-a60e4a5c9018/eyJpIjoiZTYwL1FxZ2FFd3NONzY2czZvM3h1dz09IiwiZSI6IlRzQ0FucTk5L1FOei9odmNDTTJVVDlselc5NGVJK0drTVRxOEM1eEM5b2c9IiwidCI6ImEifQ/stream/%searchPattern.json"
+    "url": "https://mediafusion.elfhosted.com/U-c1bcb13e-4082-49fd-ba65-73c0884a4a78/stream/%searchPattern.json"
   },
   {
-    "name": "TVFlix Series",
+    "name": "MediaFusion Series",
     "type": "json_imdb",
     "imdbType": "tv",
     "itemType": "info_hash",
     "infoHashTargetKey": "infoHash",
     "jsonResultsKey": "streams",
-    "torrentNameTargetKey": "title",
-    "sizePattern": "\\s*([\\d.]+)\\s*(GB|MB)",
+    "torrentNameTargetKey": "behaviorHints.filename",
+    "sizeAttr": "behaviorHints.videoSize",
     "searchPattern": {
       "movie": "movie/%imdbId",
       "tv": "series/%imdbId:%season:%episode"
     },
-    "url": "https://aiostreamsfortheweebs.midnightignite.me/stremio/be916a98-fccf-4907-99aa-a60e4a5c9018/eyJpIjoiZTYwL1FxZ2FFd3NONzY2czZvM3h1dz09IiwiZSI6IlRzQ0FucTk5L1FOei9odmNDTTJVVDlselc5NGVJK0drTVRxOEM1eEM5b2c9IiwidCI6ImEifQ/stream/%searchPattern.json"
+    "url": "https://mediafusion.elfhosted.com/U-c1bcb13e-4082-49fd-ba65-73c0884a4a78/stream/%searchPattern.json"
   }
 ]
